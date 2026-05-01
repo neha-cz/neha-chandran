@@ -18,7 +18,7 @@ export default function Home() {
         
         <AnimatedSection delay={0.2}>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            quantum engineering + entrepreneurship @ uchicago. i explore physics, ai, nanotech, 
+            neha test quantum engineering + entrepreneurship @ uchicago. i explore physics, ai, nanotech, 
             and the poetry of the cosmos
           </p>
         </AnimatedSection>
