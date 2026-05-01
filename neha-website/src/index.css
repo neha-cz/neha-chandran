@@ -1,92 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Modern Personal Website Design System */
-
 @layer base {
   :root {
-    /* Light mode colors */
     --background: 0 0% 99%;
     --foreground: 240 10% 3.9%;
-    
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
-    
     --primary: 230 100% 69%;
     --primary-foreground: 0 0% 100%;
-    
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
-    
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
-    
     --accent: 240 4.8% 95.9%;
     --accent-foreground: 240 5.9% 10%;
-    
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
     --ring: 230 100% 69%;
-    
-    /* Gradient colors */
-    --gradient-start: 238 100% 70%;
-    --gradient-end: 189 100% 56%;
-    
-    /* Hover states */
-    --hover-bg: 240 4.8% 95.9%;
-    
     --radius: 0.75rem;
-
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    /* Dark mode colors */
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
-    
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
-    
     --primary: 230 100% 75%;
     --primary-foreground: 240 10% 3.9%;
-    
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 98%;
-    
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;
-    
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 98%;
-    
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 230 100% 75%;
-    
-    /* Gradient colors - slightly brighter for dark mode */
-    --gradient-start: 238 100% 75%;
-    --gradient-end: 189 100% 62%;
-    
-    /* Hover states */
-    --hover-bg: 240 3.7% 15.9%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -104,41 +63,16 @@
   }
 
   body {
-    @apply bg-background text-foreground font-inter antialiased;
+    @apply bg-[#363753] text-[#d4d6ff] font-antiqua antialiased;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
 }
 
 @layer components {
-  /* Gradient text utilities */
-  .gradient-text {
-    @apply bg-gradient-to-r from-[hsl(var(--gradient-start))] to-[hsl(var(--gradient-end))] bg-clip-text text-transparent;
-  }
-  
-  /* Container utilities */
   .content-container {
-    @apply max-w-[850px] mx-auto px-6;
-  }
-  
-  /* Card hover effects */
-  .hover-lift {
-    @apply transition-all duration-300 ease-out hover:translate-y-[-2px] hover:shadow-lg;
-  }
-  
-  /* Link hover effects */
-  .nav-link {
-    @apply relative transition-colors duration-200 hover:text-primary;
-  }
-  
-  .nav-link::after {
-    @apply absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-[hsl(var(--gradient-start))] to-[hsl(var(--gradient-end))] transition-all duration-300;
-    content: '';
-  }
-  
-  .nav-link:hover::after {
-    @apply w-full;
+    @apply max-w-[850px] mx-auto px-5 md:px-6;
   }
 }

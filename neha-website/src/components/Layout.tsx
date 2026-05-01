@@ -1,14 +1,14 @@
-import { Outlet } from "react-router-dom";
-import Navigation from "./Navigation";
+import { ReactNode } from "react";
 import Footer from "./Footer";
 
-export default function Layout() {
+type LayoutProps = {
+  children: ReactNode;
+};
+
+export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      <main className="relative">
-        <Outlet />
-      </main>
+    <div className="min-h-screen bg-[#363753] text-[#d4d6ff] font-antiqua flex flex-col">
+      <main className="relative flex-1">{children}</main>
       <Footer />
     </div>
   );

@@ -20,6 +20,13 @@ export default {
 		extend: {
 			fontFamily: {
 				inter: ['Inter', 'sans-serif'],
+				antiqua: [
+					'"Book Antiqua"',
+					'"Palatino Linotype"',
+					'Palatino',
+					'Georgia',
+					'serif',
+				],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
