@@ -63,7 +63,21 @@
   }
 
   body {
-    @apply bg-[#363753] text-[#d4d6ff] font-antiqua antialiased;
+    @apply text-[#d4d6ff] font-antiqua antialiased;
+    /* Slight dark veil: photo stays visible, overall scene reads darker */
+    background-color: #363753;
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(24, 22, 40, 0.45) 0%,
+        rgba(18, 16, 34, 0.55) 100%
+      ),
+      url("/periwinkle-flower.jpg");
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    min-height: 100vh;
   }
 
   html {
@@ -73,6 +87,6 @@
 
 @layer components {
   .content-container {
-    @apply max-w-[850px] mx-auto px-5 md:px-6;
+    @apply max-w-4xl mx-auto px-5 md:px-6;
   }
 }

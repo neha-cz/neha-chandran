@@ -77,34 +77,52 @@ function SubTitle({ children }: { children: ReactNode }) {
 
 export default function Home() {
   return (
-    <div className="content-container py-8 md:py-10 pb-6 max-w-3xl">
-      <h1 className="text-[2rem] md:text-[2.75rem] leading-tight font-normal mb-5 md:mb-6">
-        hi, i&apos;m neha :)
-      </h1>
+    <div className="content-container py-8 md:py-10 pb-6">
+      <div
+        className={cn(
+          "relative overflow-hidden rounded-[1.35rem] md:rounded-[1.65rem]",
+          "border border-[#d4d6ff]/[0.22]",
+          "bg-gradient-to-br from-[#d4d6ff]/[0.14] via-[#d4d6ff]/[0.05] to-[#363753]/[0.35]",
+          "shadow-[0_8px_32px_rgba(0,0,0,0.22),inset_0_1px_0_rgba(255,255,255,0.14),inset_0_0_60px_rgba(212,214,255,0.04)]",
+          "backdrop-blur-2xl backdrop-saturate-150",
+          "ring-1 ring-inset ring-[#d4d6ff]/[0.08]",
+          "px-5 py-6 md:px-8 md:py-8"
+        )}
+      >
+        <div
+          className="pointer-events-none absolute -left-1/4 top-0 h-1/2 w-[70%] rounded-full bg-gradient-to-r from-transparent via-[#d4d6ff]/20 to-transparent blur-3xl"
+          aria-hidden
+        />
+        <div className="relative z-[1]">
+          <h1 className="text-[2rem] md:text-[2.75rem] leading-tight font-normal mb-5 md:mb-6">
+            hi, i&apos;m neha :)
+          </h1>
 
-      <SectionTitle className="mt-3 md:mt-4">about me</SectionTitle>
-      <p className="text-[0.98rem] leading-snug md:text-[1.05rem]">
-        I study physics at the University of Chicago. I&apos;m guided by two core questions: why
-        humans behave the way they do and why the universe is structured the way it is. I believe
-        these questions are connected, and my work is driven by deciphering the patterns between
-        them. Recently, this has meant building math + physics models to better understand the human
-        experience. 
-      </p>
+          <SectionTitle className="mt-3 md:mt-4">about me</SectionTitle>
+          <p className="text-[0.98rem] leading-snug md:text-[1.05rem]">
+            I study physics at the University of Chicago. I&apos;m guided by two core questions: why
+            humans behave the way they do and why the universe is structured the way it is. I believe
+            these questions are connected, and my work is driven by deciphering the patterns between
+            them. Recently, this has meant building math + physics models to better understand the human
+            experience.
+          </p>
 
-      <SectionTitle>research</SectionTitle>
-      <BulletList items={researchItems} />
+          <SectionTitle>research</SectionTitle>
+          <BulletList items={researchItems} />
 
-      <SectionTitle>stuff i&apos;ve built</SectionTitle>
-      <SubTitle>dev tooling/research projects</SubTitle>
-      <BulletList items={devItems} />
-      <SubTitle>b2c products</SubTitle>
-      <BulletList items={b2cItems} />
+          <SectionTitle>stuff i&apos;ve built</SectionTitle>
+          <SubTitle>dev tooling/research projects</SubTitle>
+          <BulletList items={devItems} />
+          <SubTitle>b2c products</SubTitle>
+          <BulletList items={b2cItems} />
 
-      <SectionTitle>publications</SectionTitle>
-      <BulletList items={publicationItems} />
+          <SectionTitle>publications</SectionTitle>
+          <BulletList items={publicationItems} />
 
-      <SectionTitle>book/essay recs</SectionTitle>
-      <BulletList items={bookItems} italic />
+          <SectionTitle>book/essay recs</SectionTitle>
+          <BulletList items={bookItems} italic />
+        </div>
+      </div>
     </div>
   );
 }
