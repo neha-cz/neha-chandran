@@ -79,9 +79,39 @@ export default function Work() {
         <h2 className={sectionClass}>Dev</h2>
         <BulletList
           items={[
-            "Lightweight Jupyter-native RAG-based quantum computing co-pilot.",
-            "MacOS photonic quantum circuit composer + simulator.",
-            "Neutral atom quantum compilation pipeline visualizer in Manim.",
+            <>
+              <a
+                href="https://github.com/neha-cz/planckton"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={projectLinkClass}
+              >
+                Planckton
+              </a>
+              : Lightweight Jupyter-native RAG-based quantum computing co-pilot.
+            </>,
+            <>
+              <a
+                href="https://github.com/neha-cz/uniqorn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={projectLinkClass}
+              >
+                Uniqorn
+              </a>
+              : MacOS photonic quantum circuit composer + simulator.
+            </>,
+            <>
+              <a
+                href="https://github.com/neha-cz/taurtle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={projectLinkClass}
+              >
+                Taurtle
+              </a>
+              : Neutral atom quantum compilation pipeline visualizer in Manim.
+            </>,
             "Lots of QML apps.",
           ]}
         />
