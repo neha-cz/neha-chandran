@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import Footer from "./Footer";
 
 type LayoutProps = {
   children: ReactNode;
@@ -7,9 +6,9 @@ type LayoutProps = {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen text-[#d4d6ff] font-antiqua flex flex-col">
-      <main className="relative flex-1">{children}</main>
-      <Footer />
+    <div className="min-h-screen text-[#d4d6ff] font-antiqua flex items-center justify-center">
+      <main className="w-full">{children}</main>
     </div>
   );
 }
+
