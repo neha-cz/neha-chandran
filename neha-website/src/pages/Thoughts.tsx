@@ -3,6 +3,8 @@ import PagePanel from "@/components/PagePanel";
 import { BlockMath, InlineMath } from "@/components/Math";
 
 const prose = "text-[0.88rem] leading-[1.55] md:text-[0.95rem]";
+const linkClass =
+  "cursor-pointer underline underline-offset-2 decoration-[#d4d6ff]/50 transition-colors duration-200 hover:text-[#f4f5ff] hover:decoration-[#f4f5ff]";
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -265,7 +267,16 @@ export default function Thoughts() {
               Or if it contains the number 42.
             </li>
             <li>
-              My best friend&apos;s favourite math concept is the Casorati–Weierstrass theorem
+              My{" "}
+              <a
+                href="https://akanshabagga.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={linkClass}
+              >
+                best friend
+              </a>
+              &apos;s favourite math concept is the Casorati–Weierstrass theorem
               (what a nerd), which states that near an essential singularity, a holomorphic
               function comes arbitrarily close to every complex number. When I met her, it was
               like the world exploded into every possibility imaginable.
