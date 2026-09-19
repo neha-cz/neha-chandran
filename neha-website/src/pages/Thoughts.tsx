@@ -688,15 +688,6 @@ export default function Thoughts() {
 
         <Section title="Lessons from my first year of college">
           <P>
-            As an only child with helicopter parents, I grew up in the bubble that is Northern
-            Virginia and attended the even smaller bubble that is Thomas Jefferson High School.
-            When I moved to a different state for college, I expected to be inundated by
-            perspectives that would reshape the incredibly limited way I had viewed the world.
-            What I did not expect, however, was for my sense of identity to become completely
-            destabilized until I was left questioning every value and ground truth I held my
-            entire life.
-          </P>
-          <P>
             Here are some of my newfound realizations, formulated as absolutes, but should not be
             taken as such.
           </P>
