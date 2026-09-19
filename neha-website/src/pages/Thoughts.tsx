@@ -6,7 +6,7 @@ const prose = "text-[0.88rem] leading-[1.55] md:text-[0.95rem]";
 const linkClass =
   "cursor-pointer underline underline-offset-2 decoration-[#d4d6ff]/50 transition-colors duration-200 hover:text-[#f4f5ff] hover:decoration-[#f4f5ff]";
 
-function Section({ title, children }: { title: string; children: ReactNode }) {
+function Section({ title, children }: { title: ReactNode; children: ReactNode }) {
   return (
     <section className="mt-8 first:mt-0">
       <h2 className="mb-2 text-[1.15rem] font-normal tracking-wide md:text-[1.25rem]">
@@ -17,7 +17,7 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
   );
 }
 
-function Sub({ title, children }: { title: string; children: ReactNode }) {
+function Sub({ title, children }: { title: ReactNode; children: ReactNode }) {
   return (
     <div className="mt-5">
       <h3 className="mb-1.5 text-[0.95rem] font-normal md:text-[1.02rem]">{title}</h3>
@@ -62,6 +62,91 @@ export default function Thoughts() {
           Disclaimer: I do not study math/physics, I simply enjoy thinking about
           these concepts. Do not take anything here rigorously.
         </p>
+        <Section
+          title={
+            <>
+              On Kurt Vonnegut&apos;s <em>Welcome to the Monkey House</em> collection
+            </>
+          }
+        >
+          <P>
+            My immediate thoughts upon reading the following short stories in this collection, with
+            regards to a post-AGI, post-apocalyptic, post-capitalistic society.
+          </P>
+          <Sub
+            title={
+              <>
+                <em>Welcome to the Monkey House</em>, title piece
+              </>
+            }
+          >
+            <P>
+              A world where ethical suicide centers and birth control pills that suppress sexual
+              desire are meant to combat overpopulation. Satirizes mid-20th century sexual purity
+              and hyper morality. As artificial intelligence is beginning to encroach on all
+              aspects of human life, I wonder if our raw primalness is all we will have left. Lust,
+              greed, rage, and jealousy may become the definition of humanity.
+            </P>
+            <P>
+              Side note: I despised Vonnegut&apos;s argument that rape is some sort of sexual
+              liberation for women. Ridiculously abhorrent and blatantly untrue. I do not
+              recommend.
+            </P>
+          </Sub>
+          <Sub title={<em>Harrison Bergeron</em>}>
+            <P>
+              A world where everyone is equal in every regard. People with above-average
+              intelligence, strength, or beauty must wear physical and mental “handicaps”, such as
+              a radio earplug that blasts disruptive noises to stop intelligent people from thinking
+              too deeply. Once again, I wonder if AI replaces all aspects of life, will we retain
+              any sense of individuality, or will we be forced to live in a society of human
+              mediocrity?
+            </P>
+          </Sub>
+          <Sub title={<em>EPICAC</em>}>
+            <P>
+              A man teaches a superintelligent military machine how to write poetry in an attempt
+              to woo the woman of his dreams. As a result, the machine learns the concept of love
+              and emotions, and falls in love with the woman too. When it learns that the woman can
+              never love it back, it commits suicide by short-circuiting. Sometimes I wonder how
+              many behavioral abstractions our AI models pick up during pre-training on vast amounts
+              of human text. If research already shows the existence of steerable personas and
+              functional emotion-like directions in the activation space, could there be geometries
+              for artificial equivalents of love, relationships, and pain?
+            </P>
+          </Sub>
+          <Sub title={<em>The Euphio Question</em>}>
+            <P>
+              A physicist invents an electronic device that emits a wave from deep space that
+              induces drug-like euphoria in anyone who hears the signal. A radio station owner
+              accidentally broadcasts it and quickly converts it into a business opportunity. As a
+              result, people under the influence stop eating, moving, or caring about the real
+              world, sitting in a daze until they starve or freeze. Satirizes consumerism,
+              capitalism, and escapism, warning against shortcuts to comfort and joy. A scarily
+              accurate portrayal of the dystopian effect of the smartphone and now AI assistants.
+            </P>
+          </Sub>
+          <Sub title={<em>Deer in the Works</em>}>
+            <P>
+              Not science fiction, but satirizes the dehumanization and absurdity of the corporate
+              bureaucracy. Very Kafkaesque in nature. Still applies to the majority of the mundane
+              9-5 grind jobs today. Foreshadows the Big Tech giants today, whose offices are
+              effectively a dystopia disguised as a utopia with free food, TVs, games, high
+              salaries, paid time off, insurance, and dozens of other “perks” designed to placate,
+              exploit, and indoctrinate employees.
+            </P>
+          </Sub>
+          <Sub title={<em>Unready to Wear</em>}>
+            <P>
+              A world where people, nicknamed as “amphibians”, learn to separate their psyche from
+              their physical body and live freely without worrying about food, sleep, disease, and
+              the whole slew of nuisances that arise when taking care of a human body. I wonder if
+              superintelligence will enable us to transfer our consciousness into a machine, where
+              we can live in a simulated reality free of a physical body forever. Is this{" "}
+              <em>The Matrix</em>?
+            </P>
+          </Sub>
+        </Section>
         <Section title="AI, thermodynamics, and cognition">
           <P>
             Can we use concepts from thermodynamics and statistical mechanics to understand and
