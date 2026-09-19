@@ -55,6 +55,7 @@ export default function Recs() {
             "Once Upon a Time in Hollywood",
             "The Perks of Being a Wallflower",
             "Manchester by the Sea",
+            "Dead Poets Society",
           ]}
         />
       </div>

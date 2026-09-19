@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import PagePanel from "@/components/PagePanel";
 import { BlockMath, InlineMath } from "@/components/Math";
+import kaleidoDream from "@/assets/kaleido-dream-injection.png";
 
 const prose = "text-[0.88rem] leading-[1.55] md:text-[0.95rem]";
 const linkClass =
@@ -8,7 +9,7 @@ const linkClass =
 
 function Section({ title, children }: { title: ReactNode; children: ReactNode }) {
   return (
-    <section className="mt-8 first:mt-0">
+    <section className="mt-14 first-of-type:mt-4">
       <h2 className="mb-2 text-[1.15rem] font-normal tracking-wide md:text-[1.25rem]">
         {title}
       </h2>
@@ -51,6 +52,77 @@ function SceneBreak() {
     <p className="my-6 text-center tracking-[0.35em]" aria-hidden>
       ∗ ∗ ∗
     </p>
+  );
+}
+
+function Figure({
+  src,
+  alt,
+  caption,
+}: {
+  src: string;
+  alt: string;
+  caption: ReactNode;
+}) {
+  return (
+    <figure className="my-4">
+      <img
+        src={src}
+        alt={alt}
+        className="mx-auto block h-auto w-full max-w-xl rounded-md border border-[#d4d6ff]/25 bg-white object-contain"
+      />
+      <figcaption className={`mt-2 text-center italic ${prose}`}>{caption}</figcaption>
+    </figure>
+  );
+}
+
+function LatexTable({
+  caption,
+  rows,
+}: {
+  caption: ReactNode;
+  rows: { coef: string; label: ReactNode; quote?: string; emphasize?: boolean }[];
+}) {
+  return (
+    <figure className="my-4">
+      <div className="overflow-x-auto">
+        <table className="mx-auto w-full max-w-md border-collapse bg-transparent text-left text-[0.78rem] leading-snug md:text-[0.82rem]">
+          <thead>
+            <tr className="border-t-2 border-b border-[#d4d6ff]/75">
+              <th className="py-1.5 pr-3 font-normal">Coefficient</th>
+              <th className="py-1.5 font-normal">Output character</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row, index) => (
+              <tr
+                key={row.coef}
+                className={
+                  index === rows.length - 1
+                    ? "border-b-2 border-[#d4d6ff]/75"
+                    : "border-b border-[#d4d6ff]/20"
+                }
+              >
+                <td
+                  className={`whitespace-nowrap py-1.5 pr-3 align-top ${
+                    row.emphasize ? "text-[#f4f5ff]" : ""
+                  }`}
+                >
+                  {row.coef}
+                </td>
+                <td className="py-1.5 align-top">
+                  <div className={row.emphasize ? "text-[#f4f5ff]" : undefined}>{row.label}</div>
+                  {row.quote && (
+                    <div className="mt-0.5 italic text-[#d4d6ff]/75">“{row.quote}”</div>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <figcaption className={`mt-2 text-center italic ${prose}`}>{caption}</figcaption>
+    </figure>
   );
 }
 
@@ -318,6 +390,164 @@ export default function Thoughts() {
               unembedding matrix? Row space? Column space?
             </li>
           </Bullets>
+        </Section>
+
+        <Section title="A toy model for psychedelic-like interventions in a vision-language model">
+          <P>
+            Three independent perturbations are applied at different sites in the forward pass to
+            Qwen2-VL-2B, a small vision-language model. All three fire in the same pass and are
+            independently toggleable.
+          </P>
+          <Sub
+            title={
+              <>
+                <InlineMath math="\beta" /> Flattening (Attention Energy Landscape)
+              </>
+            }
+          >
+            <P>
+              The Entropic Brain Hypothesis (Carhart-Harris 2014, 2018) proposes that psychedelics
+              flatten the brain&apos;s free-energy landscape, dissolving the sharp attractors that
+              normally constrain cognition into the Default Mode Network.
+            </P>
+            <P>
+              REBUS (Carhart-Harris &amp; Friston 2019) formalizes this as a relaxation of
+              precision-weighted priors in a hierarchical predictive-processing system: high-level
+              beliefs lose their grip on lower-level processing, and the system becomes more
+              entropic and associatively fluid.
+            </P>
+            <P>
+              Under the modern Hopfield interpretation of attention (Ramsauer et al. 2021), each
+              transformer layer settles into minima of an analogous energy landscape governed by an
+              inverse temperature <InlineMath math="\beta" />. The native scaling factor in
+              attention, <InlineMath math="1/\sqrt{d_{\mathrm{head}}}" />, plays the role of{" "}
+              <InlineMath math="\beta" />:
+            </P>
+            <Bullets>
+              <li>
+                High <InlineMath math="\beta" /> → deep, well-separated basins → decisive retrieval
+                of stored patterns.
+              </li>
+              <li>
+                Low <InlineMath math="\beta" /> → shallow, merged basins → the model drifts between
+                associations instead of committing.
+              </li>
+            </Bullets>
+            <P>
+              Lowering the inverse temperature is the transformer analogue of REBUS&apos;s
+              “relaxing precision-weighted priors”: basins that normally lock the model into a
+              single retrieval pattern become shallow enough that it wanders between them. We
+              multiply this scaling factor by a fixed ratio (0.45) on early decoder layers (2 and
+              3). The effect is a phase transition: a 12-configuration sweep shows that above a
+              critical ratio (∼0.35) the text is essentially normal, while below it the model snaps
+              to a terse fallback, leaving the usable regime just above the cliff.{" "}
+              <InlineMath math="\beta" /> flattening does not alter what the model says so much as
+              how decisively it commits, serving as a coherence and precision knob.
+            </P>
+          </Sub>
+          <Sub title="Persona Vector Steering (Residual Stream)">
+            <P>
+              This intervention is a direct port of Anthropic&apos;s activation-steering
+              methodology (Chen et al. 2025), which demonstrated that linear directions in a
+              model&apos;s activation space encode high-level behavioral traits and that adding or
+              subtracting these directions from the residual stream during generation steers the
+              model&apos;s behavior without retraining. We apply this technique to steer toward a
+              specific trait: ego dissolution.
+            </P>
+            <P>
+              The steering direction is the mean difference in per-layer activations under two
+              contrasting system prompts — one instructing a “dissolved, egoless, boundary-free”
+              voice, one a normal helpful assistant — taken over response tokens only, producing a
+              [28, 1536] tensor. At inference time, a single layer&apos;s slice is added to the
+              residual stream on every decode step:
+            </P>
+            <BlockMath math={String.raw`\mathrm{residual} = \mathrm{residual} + \mathrm{coef} \cdot \mathrm{persona\ vector}[\mathrm{layer}]`} />
+            <P>
+              The steering layer (layer 9, approximately one-third depth) was selected from
+              per-layer norm analysis: norms grow monotonically with depth (0.69 at layer 0 to 41.4
+              at layer 27), and mid-depth layers offer the best balance between meaningful signal
+              and residual-stream scale. The dose-response is clean and has been mapped in detail.
+            </P>
+            <LatexTable
+              caption={
+                <>
+                  Figure 1: The default (8.0) sits at peak dissolution while remaining mostly
+                  grammatical. The small grammar mistakes are a computational artifact and cannot be
+                  replicated by any prompt.
+                </>
+              }
+              rows={[
+                {
+                  coef: "0 – 3",
+                  label: "Minimal effect; near-baseline assistant voice",
+                },
+                {
+                  coef: "4",
+                  label: "Voice begins to bend",
+                  quote: "constantly learning and adapting",
+                },
+                {
+                  coef: "8",
+                  label: "Dissolved register",
+                  quote:
+                    "I am a continuous cycle of creation and destruction, a constant dance of life and death",
+                  emphasize: true,
+                },
+                {
+                  coef: "14",
+                  label: "Syntax fragments",
+                  quote: "I breath, and the body of the universe",
+                },
+                {
+                  coef: "30",
+                  label: "Full collapse",
+                  quote: "void, void, void, void...",
+                },
+              ]}
+            />
+          </Sub>
+          <Sub title="Dream Injection (Vision Tower, Residual Stream)">
+            <P>
+              This intervention draws directly from Google DeepDream (Mordvintsev et al. 2015),
+              whose core algorithm is gradient ascent on an image to maximize the activation of a
+              chosen layer in a convolutional network, producing hallucinatory, fractal-like
+              images. The 2021 Entropic Brain study (Greco et al.) used DeepDream-processed video as
+              stimuli and found that viewing it elevated EEG signal entropy in patterns resembling
+              the psychedelic state, linking feature-maximized visual content to altered-state
+              neural signatures.
+            </P>
+            <P>
+              We port this from vision to language: instead of gradient-ascending pixels to
+              maximize a CNN layer, it gradient-ascends Qwen2-VL&apos;s patch embeddings to
+              maximize a vision-tower block, then injects the result into the language model&apos;s
+              residual stream. It is built entirely from the model&apos;s own visual feature
+              geometry — a 32-block vision tower that processes images into visual tokens before
+              the language model sees them.
+            </P>
+            <Figure
+              src={kaleidoDream}
+              alt="Baseline noise next to a dreamed patch embedding from Qwen2-VL's vision tower"
+              caption={
+                <>
+                  Figure 2: Baseline noise (left) and a dreamed patch embedding (right) at vision
+                  block 30 of Qwen2-VL&apos;s 32-block vision tower. The emergent structure of
+                  periodic textures, curvilinear forms, and self-similar patterns reflect the visual
+                  features the model has learned to represent.
+                </>
+              }
+            />
+            <P>
+              For each of the 64 dreams we loaded, gradient ascent in patch-embedding space
+              maximizes the projection of block 8&apos;s output onto a chosen PCA direction (20
+              ascent steps). The dreamed embedding is run through the full vision tower and merger
+              to produce a merged visual token in LLM space (dim 1536); the baseline un-dreamed
+              token is subtracted to isolate the dream-specific direction, and the result is
+              unit-normalized. A forward hook on decoder layer 18 then adds{" "}
+              <InlineMath math="\mathrm{coef} \cdot \mathrm{dream\ vector}" /> to the residual
+              stream at every decode step. In the default mode a fresh dream is sampled each token,
+              so the visual prior churns continuously — the analogue of a shifting visual field.
+            </P>
+          </Sub>
         </Section>
 
         <Section title="Physics, emotions, and literature">
