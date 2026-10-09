@@ -134,6 +134,146 @@ export default function Thoughts() {
           Disclaimer: I do not study math/physics, I simply enjoy thinking about
           these concepts. Do not take anything here rigorously.
         </p>
+        <Section title="Aesthetics, consumerism, and postmodernism of AI branding">
+          <P>
+            The following notes are extrapolated from Daniel Harris&apos;s{" "}
+            <em>Cute, quaint, hungry, and romantic: the aesthetics of consumerism</em> and heavily
+            inspired by Jean Baudrillard&apos;s <em>Simulacra and Simulation</em>.
+          </P>
+          <Sub title="Muse and Dots">
+            <Bullets>
+              <li>
+                Muse is a 24/7, always-on agent designed by Meta, who specializes in every-day
+                tech consumerism
+              </li>
+              <li>
+                Given a mascot named Jolly which is a fuzzy, cuddly, customizable mascot
+              </li>
+              <li>
+                Branding attempts to rectify the trust problem in AI, since most users are
+                skeptical of this technology
+                <SubBullets>
+                  <li>
+                    Also AI doomerism arising from AI safety getting more popular after Jacob
+                    Coxon&apos;s viral tweet
+                  </li>
+                </SubBullets>
+              </li>
+              <li>
+                AI agent branding is becoming friendlier in general
+                <SubBullets>
+                  <li>
+                    Dots, released by OpenAI right after Muse became popular which has similar
+                    cutesy mascot branding
+                  </li>
+                </SubBullets>
+              </li>
+              <li>
+                Compared to Labubus and Tamagotchis
+                <SubBullets>
+                  <li>Labubus attract the hyper online nature of Gen-Z</li>
+                  <li>
+                    Tamagotchis feel nostalgic, a feeling that Gen-Z has been craving on the
+                    internet, a reminder of simpler times
+                  </li>
+                </SubBullets>
+              </li>
+            </Bullets>
+          </Sub>
+          <Sub title="Cuteness">
+            <Bullets>
+              <li>
+                Cuteness is associated with infancy which triggers a maternal instinct and thus
+                draws us toward the aesthetic
+              </li>
+              <li>
+                Cuteness often comes with a sense of grotesque which is pitiable and the emotion of
+                pity lends itself to a seductive and manipulative aesthetic
+                <SubBullets>
+                  <li>
+                    Ex: cabbage patch dolls or E.T. which creates a class of outcasts and lovable
+                    inferiors that can be collected, patronized, and enslaved which seems to be precisely what we are doing to AI "assistants". 
+                  </li>
+                </SubBullets>
+              </li>
+              <li>
+                Advertisers have learned that consumers will buy products that create an aura of
+                motherlessness, ostracism, and melancholy
+                <SubBullets>
+                  <li>
+                    Involves an act of sadism in these advertisers who make an attempt to embarrass
+                    their own products
+                  </li>
+                  <li>
+                    “Adorable things are often most adorable in the middle of a blunder: Winnie
+                    the Pooh with his snout stuck in the hive”
+                  </li>
+                  <li>
+                    Example: one of OpenAI&apos;s Dots “pets” feature oversized glasses, closed
+                    eyes, and a bowtie – immediately inviting pity from the buyers (also almost
+                    mocking the nerdy tech culture of the producers which is interesting)
+                  </li>
+                </SubBullets>
+              </li>
+              <li>
+                Anthropomorphism further acts as the rhetorical strategy for making cute things
+                cute because humans have a chauvinistic tendency that puts them as the center of
+                the universe. 
+                <SubBullets>
+                  <li>
+                    On the other end of the spectrum is the uncanny valley territory, which is where AI assistants may be starting to enter. 
+                  </li>
+                  <li>
+                    For this reason, the critter / pet mascot branding of AI assisants is meant to invite anthropomorphism while avoiding the uncanny valley.
+                  </li>
+                </SubBullets>
+              </li>
+            </Bullets>
+          </Sub>
+          <Sub title="Counterculture">
+            <Bullets>
+              <li>
+                Arises by inverting the mainstream cultural phenomena, typically in an effort to
+                prove uniqueness and combat consumerism, but ends up creating its own cultural
+                identity that inevitably is also characterized by commodity aestheticization
+              </li>
+              <li>
+                The “cuteness” / “friendliness” / “consumer-forward” nature of AI seems almost
+                counterculture adjacent in comparison to the SF AI crowd which carries a much more
+                esoteric, eccentric vibe
+              </li>
+              <li>
+                The physical, pocket-sized, Tamagotchi-inspired version of Muse and the
+                customizable, digital “pets” of OpenAI&apos;s Dots feel almost like consumerist
+                collectibles, much like Labubu collectibles which create a sense of exclusivity, an
+                in-group and out-group
+                <SubBullets>
+                  <li>
+                    In this case, the goal almost seems to be to establish the layman as the
+                    in-group (incredibly ironic)
+                  </li>
+                </SubBullets>
+              </li>
+              <li>
+                Isn&apos;t it funny how traditional everyday consumerism seems to be the
+                “counterculture”?
+              </li>
+              <li>
+                Especially because the esoteric, eccentric vibe that shapes modern tech culture was
+                in itself a counterculture movement against consumerist forward tech popularized by
+                Apple, Google, Meta, and Microsoft in the 2000s – 2010s
+              </li>
+              <li>
+                Perfectly captures the postmodern irony of culture vs counterculture whose
+                aesthetic identities are forever in rotation
+              </li>
+            </Bullets>
+          </Sub>
+          <P>
+            None of this branding has any correlation to what Muse actually does – 24/7 everyday
+            chores – replacing the bleakness of reality with a seductive image.
+          </P>
+        </Section>
         <Section
           title={
             <>
