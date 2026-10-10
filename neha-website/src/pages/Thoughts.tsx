@@ -840,7 +840,6 @@ export default function Thoughts() {
             <li>Be self-aware, but do not trap yourself in the paradox of self-awareness.</li>
             <li>If you love them, let them go.</li>
             <li>“It&apos;s not your fault.”</li>
-            <li>Grief lasts.</li>
           </Bullets>
         </Section>
 

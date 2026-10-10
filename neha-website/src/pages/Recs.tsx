@@ -26,6 +26,7 @@ export default function Recs() {
         <h2 className={sectionClass}>Literature</h2>
         <BulletList
           items={[
+            "Cute, Quaint, Hungry, and Romantic: The Aesthetics of Consumerism",
             "Simulacra and Simulation",
             "The Origin of the Family, Private Property, and the State",
             "Society of the Spectacle",
