@@ -134,6 +134,69 @@ export default function Thoughts() {
           Disclaimer: I do not study math/physics, I simply enjoy thinking about
           these concepts. Do not take anything here rigorously.
         </p>
+        <Section title="Better as a concept">
+          <P>
+            I loved the rose plant by our house. It grew in the patch of black soil near the
+            garage, blossoming into soft shades of rouge and ivory every summer, in an absurd
+            juxtaposition with the sterile beige of the garage door. I loved how the dewy petals
+            unfurled into a gorgeous pattern resembling the Fibonacci spiral, my then favourite
+            concept in math.
+          </P>
+          <P>
+            I would search for the Fibonacci sequence everywhere I went. Beach trips were
+            interrupted by spiral-shaped seashells sunken into the scorching sand, evening autumn
+            walks interrupted by pinecones whose scales were arranged in bidirectional spirals, in
+            the mirror I wondered if my proportions matched the golden ratio of the Vitruvian man.
+          </P>
+          <P>
+            There was a certain comfort in believing that the intricate geometries and patterns of
+            the universe were intentional. It gave me a sense of purpose. Meaning. Fulfilment. As
+            if the universe was handcrafted and then served to me – individually – on a silver
+            platter and that was the reason why I should feel compelled to make something of my
+            life. The logical fallacy should have been evident from the minute I read Sagan&apos;s{" "}
+            <em>Pale Blue Dot</em>, yet I seemed only to have intellectually digested the
+            insignificance of humanity without actually applying this rationality to my own
+            beliefs.
+          </P>
+          <P>
+            My hunger for meaning was insatiable. Every moment in my life needed to be binned into
+            some category of poetic significance in order for me to consider its importance. My
+            very real emotions became discarded and replaced with projections that aligned with
+            some sort of aestheticized persona:
+          </P>
+          <blockquote className={`mb-3 ml-2.5 pl-5 italic md:ml-3.5 md:pl-6 ${prose}`}>
+            I feel like a soldier bleeding out in a ditch in a forest, fallen so deep that no one
+            can see him, but he feels everything, down to the tree branch digging into his ribcage
+            and the maggots crawling over his skin. And he&apos;ll die there slowly, his flesh
+            rotting as they consume him inch by inch until there is nothing left.
+          </blockquote>
+          <P>
+            Maybe there was an honest rawness when I wrote this, but I suspect that the primary
+            function was to glamorize my emotions into visceral, poetically grotesque prose echoing
+            the likes of Edgar Allan Poe and H.P. Lovecraft. The concept of how I felt mattered
+            more than how I actually felt.
+          </P>
+          <P>
+            But I think there&apos;s much more to it than simply the fact that I derived so much
+            cosmic purpose from romanticization. I think I was also in part driven by fear. Because
+            ironically, no amount of symbolic lyricism will ever reach the intensity of life in its
+            rawest, most unglamorized form. To have to sit silently with my emotions brewing in the
+            pits of my stomach, truly feeling every tug of grief, bite of shame, bubbling of anger,
+            heave of guilt – and to know that there was no divine force or handcrafted universe
+            that caused it – is a terrifying reality to face. To know that my flaws don&apos;t make
+            me some “tragic hero”, but unostentatiously a person who has hurt other people because
+            of them.
+          </P>
+          <P>
+            The roses and the seashells and the pinecones and the human body are all beautiful
+            feats of nature. There is some mathematical elegance in their patterns, but I wonder
+            how much of it my younger self found, and how much she imposed.
+          </P>
+          <P>
+            Because fundamentally, that is all that they are. A rose. A seashell. A pinecone. A
+            body.
+          </P>
+        </Section>
         <Section title="Aesthetics, consumerism, and postmodernism of AI branding">
           <P>
             The following notes are extrapolated from Daniel Harris&apos;s{" "}
@@ -851,7 +914,7 @@ export default function Thoughts() {
             field equations of general relativity in ten dimensions, unifies gravity as the fourth
             fundamental force by positing a new boson called a graviton, and even lends the
             analogy of strings and notes on my favourite instrument, the guitar. It&apos;s perfect.
-            Putatively. Excruciatingly so.
+            Ostensibly. Excruciatingly so.
           </P>
           <P>
             Consider the artwork below, titled <em>Quantum Fluctuations</em> by Martha W. Lewis in
@@ -859,13 +922,6 @@ export default function Thoughts() {
             Earthy brushstrokes juxtapose a serene warmth with the relentless annihilation of
             virtual particles. The sense of vicious motion emerging in stillness.
           </P>
-          <figure className="my-4">
-            <img
-              src="/quantum-fluctuations.png"
-              alt="Quantum Fluctuations by Martha W. Lewis, 2018, installed in a gallery"
-              className="mx-auto w-full max-w-xl rounded-sm"
-            />
-          </figure>
           <P>
             String theory then smoothens out these fluctuations, and all of its artistic chaos
             disappears.
@@ -878,6 +934,13 @@ export default function Thoughts() {
             that all of that beautifully wrecked messiness resolves itself into such a neat
             solution?
           </P>
+          <figure className="my-4">
+            <img
+              src="/quantum-fluctuations.png"
+              alt="Quantum Fluctuations by Martha W. Lewis, 2018, installed in a gallery"
+              className="mx-auto w-full max-w-xl rounded-sm"
+            />
+          </figure>
         </Section>
 
         <Section title="So where is Waldo, really?">
