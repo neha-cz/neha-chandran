@@ -162,10 +162,7 @@ export default function Thoughts() {
             righteous saint who gallantly preaches authenticity and shames others for not evolving
             too. From insisting that only intellectual pursuits can contribute value to the world.
             How sanctimonious of me, to put so much distance between myself and the people I used
-            to surround myself with.
-          </P>
-          <P>
-            How performative of me, to reject my own superficiality, when it might be the most
+            to surround myself with. How performative of me, to reject my own superficiality, when it might be the most
             honest thing about me. Like J.D. Salinger said, we are all phonies, performing in our
             own worlds. After a while, such rigorous pursuit of authenticity becomes its own
             vanity.
