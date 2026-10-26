@@ -138,12 +138,12 @@ export default function Thoughts() {
           <P>
             I think back to the days when we would huddle together in a circle on the floor,
             loudly trading stories of our lives, our friends&apos; lives, people we hardly knew,
-            people who didn&apos;t even go to the same school as us. Nicknaming people by their
-            initials, piecing together fragments of a story that entirely consisted of rumors,
-            going radio silent when asked how we knew what we knew. I am appalled by the
-            superficiality of it all. The sheer lack of introspection and accountability in every
-            story we blabbed. Out of the numerous intellectual pursuits we could have engaged in, we
-            decided to drain hours contributing nothing to the world around us.
+            people who didn&apos;t even go to our school. Nicknaming people by their initials,
+            piecing together fragments of a story that consisted entirely of rumors, going radio
+            silent when asked how we knew what we knew. I am appalled by the superficiality of it
+            all. The sheer lack of introspection and accountability in every story we blabbed
+            about. Out of the numerous intellectual pursuits we could have engaged in, we decided to
+            drain hours of our lives contributing nothing to the world around us.
           </P>
           <P>
             I&apos;m doing better now, though. I spend my evenings in candlelit rooms full of adults
@@ -153,19 +153,19 @@ export default function Thoughts() {
             sun leaking through the windows.
           </P>
           <P>
-            So why do I long for the nostalgia soaked cruelty of my teenage years? The dry plaster
-            wall pressed against our backs, fluorescent
-            ceiling lights scorched our eyes, the suburban dread glistened in full glam. The air
-            was drenched with a collective banality, a moment of vapid serenity we shared in the
-            midst of our academic pressure cooker of a high school. There was a certain comfort in
-            being able to express ourselves so freely among each other, to know that we did not
-            necessarily need to perform intellect to be accepted. To be vain and trite, to not care
-            about the futility of our conversations.
+            So why do I long for the nostalgia-soaked cruelty of my teenage years? The dry plaster
+            wall pressed itself against our backs, fluorescent ceiling lights scorched our eyes,
+            the suburban dread glistened in full glamour. The air was drenched with a collective
+            banality, a moment of vapid serenity we shared in the midst of our academic pressure
+            cooker of a high school. There was a certain comfort in being able to express ourselves
+            so freely among each other, to know that we did not necessarily need to perform
+            intellect to be accepted. To be vain and trite, to not care about the futility of our
+            conversations.
           </P>
           <P>
             I am exhausted from feeling so much shame and repulsion towards my younger self. From
             trying to “evolve” into some morally righteous saint who gallantly preaches
-            authenticity and shames others for not evolving too. From insisting that only
+            authenticity and shames others for not evolving alongside me. From insisting that only
             intellectual pursuits can contribute value to the world. How sanctimonious of me, to
             put so much distance between myself and the people I once surrounded myself with. How
             performative of me, to reject my own cruelty and superficiality, when it might be the
@@ -176,18 +176,18 @@ export default function Thoughts() {
           <P>
             In all honesty, I don&apos;t really want to be like the adults in those candlelit
             rooms. I don&apos;t want to think so hard about doing the right thing, trapped in an
-            obsessive spiral fueled by a self-awareness too acute. Policing every passing thought
-            or fleeting pleasure, digging through layers of intellectualization instead of just
-            letting myself be. A being with thoughts and feelings moving through the world.
+            obsessive spiral fueled by a self-awareness that&apos;s all too acute. Policing every
+            passing thought or fleeting pleasure, digging through layers of intellectualization
+            instead of just letting myself be. A being with thoughts and feelings moving through
+            the world.
           </P>
           <P>
             There are days when I do not care to think about things beyond myself. Days when I do
             not care to think in such a nuanced manner, but simply speak and argue freely because I
             can. Days when I want to flood my brain with gossip and rumors and not feel guilty for
-            doing so. To sit in a
-            circle of people I love, talking about people we hardly know, and allow the
-            conversation to amount to nothing. How freely we could exist, without the constant
-            burden of becoming someone better.
+            doing so. To sit in a circle of people I love, talking about people we hardly know, and
+            allow the conversation to amount to nothing. How freely we could exist, without the
+            constant burden of becoming someone better.
           </P>
         </Section>
         <Section title="Better as a concept">
