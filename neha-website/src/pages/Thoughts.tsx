@@ -163,31 +163,22 @@ export default function Thoughts() {
             conversations.
           </P>
           <P>
-            I am exhausted from feeling so much shame and repulsion towards my younger self. From
-            trying to “evolve” into some morally righteous saint who gallantly preaches
-            authenticity and shames others for not evolving alongside me. From insisting that only
-            intellectual pursuits can contribute value to the world. How sanctimonious of me, to
-            put so much distance between myself and the people I once surrounded myself with. How
-            performative of me, to reject my own cruelty and superficiality, when it might be the
-            most honest thing about me. Like J.D. Salinger said, we are all phonies, performing in
-            our own worlds. After a while, such rigorous pursuit of morality becomes its own
-            vanity.
+            I am exhausted from feeling so much shame and repulsion towards my younger self and my
+            old friends. From insisting that only intellectual pursuits can contribute value to the
+            world. How sanctimonious of me, to put so much distance between myself and the people I
+            once surrounded myself with. How performative of me, to reject my own cruelty and
+            superficiality, when it might be the most honest thing about me. Like J.D. Salinger
+            said, we are all phonies, performing in our own worlds. After a while, such rigorous
+            pursuit of morality becomes its own vanity.
           </P>
           <P>
-            In all honesty, I don&apos;t really want to be like the adults in those candlelit
-            rooms. I don&apos;t want to think so hard about doing the right thing, trapped in an
-            obsessive spiral fueled by a self-awareness that&apos;s all too acute. Policing every
-            passing thought or fleeting pleasure, digging through layers of intellectualization
-            instead of just letting myself be. A being with thoughts and feelings moving through
-            the world.
-          </P>
-          <P>
-            There are days when I do not care to think about things beyond myself. Days when I do
-            not care to think in such a nuanced manner, but simply speak and argue freely because I
-            can. Days when I want to flood my brain with gossip and rumors and not feel guilty for
-            doing so. To sit in a circle of people I love, talking about people we hardly know, and
-            allow the conversation to amount to nothing. How freely we could exist, without the
-            constant burden of becoming someone better.
+            No matter how hard I tried to be, I am not like the adults in those candlelit
+            rooms. There are days when I do not care to think about things beyond myself. Days
+            when I don&apos;t police every passing thought or fleeting pleasure, instead just
+            letting myself be. Days when I want to flood my brain with gossip and rumors and not
+            feel guilty for doing so. To sit in a circle of people I love, talking about people we
+            hardly know, and allow the conversation to amount to nothing. How freely we could
+            exist, without the constant burden of becoming someone better.
           </P>
         </Section>
         <Section title="Better as a concept">
