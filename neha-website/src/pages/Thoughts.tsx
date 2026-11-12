@@ -136,49 +136,54 @@ export default function Thoughts() {
         </p>
         <Section title="Guilty pleasure">
           <P>
-            I think back to the days when we would huddle together in a circle on the floor,
-            loudly trading stories of our lives, our friends&apos; lives, people we hardly knew,
-            people who didn&apos;t even go to our school. Nicknaming people by their initials,
-            piecing together fragments of a story that consisted entirely of rumors, going radio
-            silent when asked how we knew what we knew. I am appalled by the superficiality of it
-            all. The sheer lack of introspection and accountability in every story we blabbed
-            about. Out of the numerous intellectual pursuits we could have engaged in, we decided to
-            drain hours of our lives contributing nothing to the world around us.
+            I think back to freshman year of high school when we would huddle together in a circle
+            on the floor, loudly trading stories of our lives, our friends&apos; lives, people we
+            hardly knew, people who didn&apos;t even go to our school. Nicknaming people by their
+            initials, piecing together fragments of a story that consisted entirely of rumors,
+            going radio silent when asked how we knew what we knew. Turning other people&apos;s
+            lives into our own entertainment.
           </P>
           <P>
-            I&apos;m doing better now, though. I spend my evenings in candlelit rooms full of adults
-            who are committed to being the best versions of themselves. Constantly probing their
-            own thoughts, examining their morality. We converse about literature and philosophy and
-            mathematics, surrounded by the smell of warm hickory and old book pages, wispy rays of
-            sun leaking through the windows.
+            My life is different now. I spend my evenings in candlelit rooms full of people who are
+            committed to being the best versions of themselves. Surrounded by the smell of warm
+            hickory and old book pages, we converse about mathematics and philosophy, probing our
+            thoughts, examining our morality. In these moments, I look back on my teenage years
+            with shame, appalled by the superficiality of it all. Out of the numerous intellectual
+            pursuits I could have chosen, I decided to drain hours of my life contributing nothing
+            to the world.
           </P>
           <P>
-            So why do I long for the nostalgia-soaked cruelty of my teenage years? The dry plaster
-            wall pressed itself against our backs, fluorescent ceiling lights scorched our eyes,
-            the suburban dread glistened in full glamour. The air was drenched with a collective
-            banality, a moment of vapid serenity we shared in the midst of our academic pressure
-            cooker of a high school. There was a certain comfort in being able to express ourselves
-            so freely among each other, to know that we did not necessarily need to perform
-            intellect to be accepted. To be vain and trite, to not care about the futility of our
-            conversations.
+            So why do I still long for the nostalgia-soaked cruelty of my teenage years? The dry
+            plaster wall would press itself against our backs as the fluorescent ceiling lights
+            scorched our eyes, and the suburban dread glistened in full glamour. The air was
+            drenched with a collective banality, a moment of vapid serenity we shared in the midst
+            of the intensity of high school. There was a certain comfort in being able to express
+            ourselves so freely among each other, to know that we did not necessarily need to
+            perform intellect to be accepted. To be vain and trite, to not care about the futility
+            of our conversations.
           </P>
           <P>
-            I am exhausted from feeling so much shame and repulsion towards my younger self and my
-            old friends. From insisting that only intellectual pursuits can contribute value to the
-            world. How sanctimonious of me, to put so much distance between myself and the people I
-            once surrounded myself with. How performative of me, to reject my own cruelty and
-            superficiality, when it might be the most honest thing about me. Like J.D. Salinger
-            said, we are all phonies, performing in our own worlds. After a while, such rigorous
-            pursuit of morality becomes its own vanity.
+            Maybe futility is the wrong word. It implies everything we ever talked about was
+            utterly useless, and I don&apos;t think that&apos;s true. Not when conversations about
+            who broke up with whom gave way to confessions of our own insecurities. Not when a week
+            before graduation, I found myself breaking down in the backseat of my best
+            friend&apos;s car, limbs tangled together, tears dampening each other&apos;s hair. The
+            hazy afternoon sunlight catching on the necklace she had given me for my birthday. The
+            same superficiality I spent so long trying to escape from birthed some of the deepest
+            intimacy I have ever known.
           </P>
           <P>
-            No matter how hard I tried to be, I am not like the adults in those candlelit
-            rooms. There are days when I do not care to think about things beyond myself. Days
-            when I don&apos;t police every passing thought or fleeting pleasure, instead just
-            letting myself be. Days when I want to flood my brain with gossip and rumors and not
-            feel guilty for doing so. To sit in a circle of people I love, talking about people we
-            hardly know, and allow the conversation to amount to nothing. How freely we could
-            exist, without the constant burden of becoming someone better.
+            I am exhausted from feeling so much shame and repulsion towards my younger self and old
+            friends. From believing that my worth can only be determined by intellectual pursuits
+            that contribute value to the world. How sanctimonious of me, to put so much distance
+            between myself and the people I once surrounded myself with. How performative of me,
+            to insist that I have outgrown every superficial impulse that once made me feel so
+            human. There are days when I do not care to think about things beyond myself. Days
+            when I don&apos;t police every passing thought or fleeting pleasure. Days when I want
+            to flood my brain with gossip and rumors. Sometimes all I want is to sit in a circle of
+            people I love, talking about people we hardly know, and allowing the conversation to
+            amount to nothing. How freely we could exist, without the constant burden of becoming
+            someone better.
           </P>
         </Section>
         <Section title="Better as a concept">
