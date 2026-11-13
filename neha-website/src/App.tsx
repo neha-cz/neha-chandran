@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Recs from "./pages/Recs";
 import Thoughts from "./pages/Thoughts";
 import Work from "./pages/Work";
+import Writing from "./pages/Writing";
 
 const App = () => (
   <BrowserRouter>
@@ -13,6 +14,7 @@ const App = () => (
         <Route path="/work" element={<Work />} />
         <Route path="/recs" element={<Recs />} />
         <Route path="/thoughts" element={<Thoughts />} />
+        <Route path="/writing" element={<Writing />} />
       </Routes>
     </Layout>
   </BrowserRouter>

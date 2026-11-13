@@ -6,6 +6,7 @@ const links = [
   { to: "/work", label: "work" },
   { to: "/recs", label: "recs" },
   { to: "/thoughts", label: "thoughts" },
+  { to: "/writing", label: "writing" },
 ] as const;
 
 export default function Nav() {
