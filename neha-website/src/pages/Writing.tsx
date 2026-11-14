@@ -33,8 +33,10 @@ export default function Writing() {
             I am exhausted from feeling so much shame and repulsion towards my younger self and old
             friends. How sanctimonious of me, to put so much distance between myself and the people
             I once surrounded myself with. How performative of me, to insist that I have outgrown
-            every superficial impulse that once made me feel so human. There are days when I do not
-            care to think about things beyond myself. Days when I don&apos;t police every passing
+            every superficial impulse that once made me feel so human. 
+          </P>
+          <P>
+          There are days when I do not care to think about things beyond myself. Days when I don&apos;t police every passing
             thought or fleeting pleasure. Days when I want to flood my brain with gossip and rumors.
             Sometimes all I want is to sit in a circle of people I love, talking about people we
             hardly know, and allowing the conversation to amount to nothing. How freely we could
