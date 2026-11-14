@@ -38,7 +38,6 @@ export default function Recs() {
             "A Long Way Gone",
             "On Dumpster Diving",
             "Metamorphosis",
-            "All the Light We Cannot See",
             "Frankenstein",
             "The Fault in Our Stars",
           ]}

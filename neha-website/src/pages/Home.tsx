@@ -60,22 +60,34 @@ export default function Home() {
           experience.
         </p>
         <p className="mt-3 text-[0.94rem] leading-snug md:text-[1rem]">Interests:</p>
-        <ul className="list-disc ml-2.5 pl-5 md:ml-3.5 md:pl-6 mt-0.5 space-y-0.5 text-[0.94rem] leading-snug md:text-[1rem]">
-          {[
-            "Quantum software",
-            "AI alignment/interpretability",
-            "Optical engineering",
-            "Dissipative dynamics",
-            "Startups/VCs",
-            "Political theory",
-            "Postmodernism",
-            "Quantum mechanics",
-            "Consciousness",
-            "Infinities",
-          ].map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
+        <div className="mt-0.5 flex items-start gap-4 md:gap-8">
+          <ul className="min-w-0 flex-1 list-disc ml-2.5 pl-5 md:ml-3.5 md:pl-6 space-y-0.5 text-[0.94rem] leading-snug md:text-[1rem]">
+            {[
+              "Quantum software",
+              "AI alignment/interpretability",
+              "Optical engineering",
+              "Dissipative dynamics",
+              "Startups/VCs",
+              "Political theory",
+              "Postmodernism",
+              "Quantum mechanics",
+              "Consciousness",
+              "Infinities",
+            ].map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          <figure className="mr-6 w-40 shrink-0 sm:mr-20 sm:w-60 md:mr-40 md:w-72">
+            <img
+              src="/navy_pier_web.jpg"
+              alt="Neha at the lakefront by Navy Pier at night"
+              className="h-auto w-full rounded-xl border border-[#d4d6ff]/25"
+            />
+            <figcaption className="mt-1.5 text-center text-[0.72rem] italic leading-snug text-[#d4d6ff]/70 md:text-[0.78rem]">
+              At Navy Pier, Chicago | Summer 2026
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </PagePanel>
   );
