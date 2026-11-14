@@ -8,26 +8,12 @@ export default function Writing() {
       <article className="mt-6 pb-10 text-left md:mt-8">
         <Section title="Guilty pleasure">
           <P>
-            I think back to freshman year of high school when we would huddle together in a circle
-            on the floor, loudly trading stories of our lives, our friends&apos; lives, people we
-            hardly knew, people who didn&apos;t even go to our school. Nicknaming people by their
-            initials, piecing together fragments of a story that consisted entirely of rumors,
-            going radio silent when asked how we knew what we knew. Turning other people&apos;s
-            lives into our own entertainment.
+            I hate to admit that I still long for the nostalgia-soaked superficiality of my teenage
+            years.
           </P>
           <P>
-            My life is different now. I spend my evenings in candlelit rooms full of people who are
-            committed to being the best versions of themselves. Surrounded by the smell of warm
-            hickory and old book pages, we converse about mathematics and philosophy, probing our
-            thoughts, examining our morality. In these moments, I look back on my teenage years
-            with shame, appalled by the superficiality of it all. Out of the numerous intellectual
-            pursuits I could have chosen, I decided to drain hours of my life contributing nothing
-            to the world.
-          </P>
-          <P>
-            So why do I still long for the nostalgia-soaked cruelty of my teenage years? The dry
-            plaster wall would press itself against our backs as the fluorescent ceiling lights
-            scorched our eyes, and the suburban dread glistened in full glamour. The air was
+            The dry plaster wall would press itself against our backs as the fluorescent ceiling
+            lights scorched our eyes, and the suburban dread glistened in full glamour. The air was
             drenched with a collective banality, a moment of vapid serenity we shared in the midst
             of the intensity of high school. There was a certain comfort in being able to express
             ourselves so freely among each other, to know that we did not necessarily need to
@@ -40,22 +26,19 @@ export default function Writing() {
             who broke up with whom gave way to confessions of our own insecurities. Not when a week
             before graduation, I found myself breaking down in the backseat of my best
             friend&apos;s car, limbs tangled together, tears dampening each other&apos;s hair. The
-            hazy afternoon sunlight catching on the necklace she had given me for my birthday. The
-            same superficiality I spent so long trying to escape from birthed some of the deepest
-            intimacy I have ever known.
+            hazy afternoon sunlight catching on the necklace she had given me for my birthday.
+            Superficiality birthed some of the deepest intimacy I have ever known.
           </P>
           <P>
             I am exhausted from feeling so much shame and repulsion towards my younger self and old
-            friends. From believing that my worth can only be determined by intellectual pursuits
-            that contribute value to the world. How sanctimonious of me, to put so much distance
-            between myself and the people I once surrounded myself with. How performative of me,
-            to insist that I have outgrown every superficial impulse that once made me feel so
-            human. There are days when I do not care to think about things beyond myself. Days
-            when I don&apos;t police every passing thought or fleeting pleasure. Days when I want
-            to flood my brain with gossip and rumors. Sometimes all I want is to sit in a circle of
-            people I love, talking about people we hardly know, and allowing the conversation to
-            amount to nothing. How freely we could exist, without the constant burden of becoming
-            someone better.
+            friends. How sanctimonious of me, to put so much distance between myself and the people
+            I once surrounded myself with. How performative of me, to insist that I have outgrown
+            every superficial impulse that once made me feel so human. There are days when I do not
+            care to think about things beyond myself. Days when I don&apos;t police every passing
+            thought or fleeting pleasure. Days when I want to flood my brain with gossip and rumors.
+            Sometimes all I want is to sit in a circle of people I love, talking about people we
+            hardly know, and allowing the conversation to amount to nothing. How freely we could
+            exist, without the constant burden of becoming someone better.
           </P>
         </Section>
 
