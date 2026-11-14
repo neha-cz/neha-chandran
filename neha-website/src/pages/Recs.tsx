@@ -26,23 +26,20 @@ export default function Recs() {
         <h2 className={sectionClass}>Literature</h2>
         <BulletList
           items={[
-            "Conspicuous Consumption, The Theory of the Leisure Class",
+            "The Theory of the Leisure Class",
             "Welcome to the Monkey House",
             "Cute, Quaint, Hungry, and Romantic: The Aesthetics of Consumerism",
-            "Simulacra and Simulation",
             "The Origin of the Family, Private Property, and the State",
             "Society of the Spectacle",
-            "The Emotion Machine: Commonsense Thinking, Artificial Intelligence, and the Future of the Human Mind",
-            "Atemwende (Breathturn)",
-            "The Rigor of Angels: Borges, Heisenberg, Kant, and the Ultimate Nature of Reality",
             "Geometry of Grief: Reflections on Mathematics, Loss, and Life",
-            "The Little Book of String Theory",
             "The Trial",
             "E Unibus Pluram: Television and U.S. Fiction",
             "Politics and the English Language",
+            "A Long Way Gone",
+            "On Dumpster Diving",
             "Metamorphosis",
+            "All the Light We Cannot See",
             "Frankenstein",
-            "Flatland: A Romance of Many Dimensions",
             "The Fault in Our Stars",
           ]}
         />
