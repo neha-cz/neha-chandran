@@ -8,17 +8,24 @@ export default function Writing() {
       <article className="mt-6 pb-10 text-left md:mt-8">
         <Section title="Guilty pleasure">
           <P>
-            I hate to admit that I still long for the nostalgia-soaked superficiality of my teenage
-            years.
+            They are talking about wanting to be better people and I am drowning. Drowning in the
+            weight of their introspection, their acute self-scrutiny suffocating my lungs like a
+            dark sticky sludge. They interrogate their morality with such admirable rigour that
+            I&apos;m frantically racking my mind for something to dissect myself. Some deep-rooted
+            flaw, some selfish desire, some perverted impulse, anything that I can regurgitate that
+            will make me seem as principled as them. My mouth is dry and the shame swallows me
+            whole.
           </P>
           <P>
-            The dry plaster wall would press itself against our backs as the fluorescent ceiling
-            lights scorched our eyes, and the suburban dread glistened in full glamour. The air was
-            drenched with a collective banality, a moment of vapid serenity we shared in the midst
-            of the intensity of high school. There was a certain comfort in being able to express
-            ourselves so freely among each other, to know that we did not necessarily need to
-            perform intellect to be accepted. To be vain and trite, to not care about the futility
-            of our conversations.
+            I miss the nostalgia-soaked vapidity of my teenage years. The dry plaster wall would
+            press itself against our backs as the fluorescent ceiling lights scorched our eyes, and
+            the suburban dread glistened in full glamour. We would trade stories of our lives, our
+            friends&apos; lives, lives of people we hardly knew. The air was drenched with a
+            collective banality, a moment of vapid serenity we shared in the midst of the intensity
+            of adolescence. There was a certain comfort in being able to express ourselves so
+            freely among each other, to know that we did not necessarily need to perform intellect
+            to be accepted. To be vain and trite, to not care about the futility of our
+            conversations.
           </P>
           <P>
             Maybe futility is the wrong word. It implies everything we ever talked about was
@@ -27,20 +34,21 @@ export default function Writing() {
             before graduation, I found myself breaking down in the backseat of my best
             friend&apos;s car, limbs tangled together, tears dampening each other&apos;s hair. The
             hazy afternoon sunlight catching on the necklace she had given me for my birthday.
-            Superficiality birthed some of the deepest intimacy I have ever known.
+            Vapidity birthed some of the deepest intimacy I have ever known.
           </P>
           <P>
-            I am exhausted from feeling so much shame and repulsion towards my younger self and old
+            I am exhausted from feeling shame and repulsion towards my younger self and old
             friends. How sanctimonious of me, to put so much distance between myself and the people
             I once surrounded myself with. How performative of me, to insist that I have outgrown
-            every superficial impulse that once made me feel so human. 
+            every superficial impulse that once made me feel so human.
           </P>
           <P>
-          There are days when I do not care to think about things beyond myself. Days when I don&apos;t police every passing
-            thought or fleeting pleasure. Days when I want to flood my brain with gossip and rumors.
-            Sometimes all I want is to sit in a circle of people I love, talking about people we
-            hardly know, and allowing the conversation to amount to nothing. How freely we could
-            exist, without the constant burden of becoming someone better.
+            There are days when I do not care to think about things beyond myself. Days when I
+            don&apos;t police every passing thought or fleeting pleasure. Days when I want to flood
+            my brain with gossip and rumors. Sometimes all I want is to sit in a circle of people I
+            love, talking about people we hardly know, and allowing the conversation to amount to
+            nothing. How freely we could exist, without the constant burden of becoming someone
+            better.
           </P>
         </Section>
 
