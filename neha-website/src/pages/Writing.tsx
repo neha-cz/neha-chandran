@@ -9,11 +9,11 @@ export default function Writing() {
         <Section title="Guilty pleasure">
           <P>
             They are talking about wanting to be better people and I am drowning. Drowning in the
-            weight of their introspection, their acute self-scrutiny suffocating my lungs. Drowning
-            in the shame of the nostalgia-soaked vapidity of my teenage years. The hours spent
-            delightfully indulging in gossip about people I hardly knew. I try to point to some
-            deep-rooted flaw, some selfish desire, some perverted impulse, anything I can
-            regurgitate to condemn my younger self. My mouth is dry.
+            weight of their introspection, their acute self-scrutiny suffocating my lungs. I try to
+            point to some deep-rooted flaw, some selfish desire, some perverted impulse, anything I
+            can regurgitate to condemn my younger self. My mouth is dry. All I have are hours spent
+            delightfully indulging in gossip about people I hardly knew, the nostalgia-soaked
+            vapidity of my teenage years. And the shame of missing it.
           </P>
           <P>
             I remember back in high school the dry plaster wall would press itself against our
